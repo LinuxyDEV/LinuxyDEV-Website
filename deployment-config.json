@@ -1,0 +1,10 @@
+{
+    "type": "sftp",
+    "host": "linuxydev.net",
+    "username": "root",
+    "password": "",
+    "sshKeyFile": "~/.ssh/id_rsa",
+    "port": 22,
+    "remotePath": "/var/www/html",
+    "uploadOnSave": false
+}
