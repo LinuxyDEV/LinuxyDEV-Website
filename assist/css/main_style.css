@@ -23,9 +23,10 @@
 */
 
 body {
-  background: url("/assist/assists/bg-header.jpg") rgba(255, 255, 255, 0.33) repeat cover;
+  /* TODO: background:  rgba(255, 255, 255, 0.33) repeat cover;*/
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
 
 /*
@@ -70,6 +71,13 @@ body {
 ##
 
 */
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
 
 .content-plane {
   margin-left: 250px; /* Same width as the sidebar + left position in px */
