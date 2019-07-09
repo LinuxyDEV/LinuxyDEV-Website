@@ -39,9 +39,9 @@ body {
 .vertical-menu {
   width: 190px;
   position: fixed;
-  z-index: 1;
+  z-index: 0;
   top: 100px;
-  left: 30px;
+  left: 5px;
   background: #eee;
   overflow-x: hidden;
   padding: 8px 0;
