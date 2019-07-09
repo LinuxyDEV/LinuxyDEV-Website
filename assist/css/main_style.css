@@ -36,15 +36,22 @@ body {
 
 */
 .vertical-menu {
-  width: 200px;
+  width: 190px;
+  position: fixed;
+  z-index: 1;
+  top: 100px;
+  left: 30px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
 }
 
 .vertical-menu a {
-  background-color: #eee;
-  color: black;
-  display: block;
-  padding: 12px;
+  padding: 6px 8px 6px 16px;
   text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
 }
 
 .vertical-menu a:hover {
@@ -65,8 +72,13 @@ body {
 */
 
 .content-plane {
-  padding-left: 250px;
-  font-weight: 300;
-  color: #rgba(255, 0, 0, 0.5);
+  margin-left: 250px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
 
+}
+
+@media screen and (max-height: 450px) {
+  .content-plane {padding-top: 15px;}
+  .content-plane a {font-size: 18px;}
 }
