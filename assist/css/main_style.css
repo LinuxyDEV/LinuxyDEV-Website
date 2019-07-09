@@ -21,9 +21,7 @@
 ##
 
 */
-header {
-
-}
+header {}
 
 body {
   background: url("/assist/assists/bg-header.jpg") rgba(255, 255, 255, 0.33) repeat cover;
@@ -31,26 +29,30 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.topnav {
-  overflow: hidden;
-  background-color: #333;
+/*
+
+##
+# - Menu -
+##
+
+*/
+.vertical-menu {
+  width: 200px;
 }
 
-.topnav a
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
+.vertical-menu a {
+  background-color: #eee;
   color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
 }
 
-.topnav a.active {
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
   background-color: #4CAF50;
   color: white;
 }
