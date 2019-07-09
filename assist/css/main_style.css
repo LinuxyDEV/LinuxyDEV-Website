@@ -11,11 +11,8 @@
 # - Google Fonts and other imports -
 ##
 */
-
 /* Google Font - Montserrat  */
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,400i,600&display=swap');
-
 
 /*
 
@@ -24,7 +21,12 @@
 ##
 
 */
+header {
+
+}
+
 body {
+  background: url("/assist/assists/bg-header.jpg") rgba(255, 255, 255, 0.33) repeat cover;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
