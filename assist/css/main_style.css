@@ -22,11 +22,20 @@
 
 */
 
-body {
+html {
   /* TODO: background:  rgba(255, 255, 255, 0.33) repeat cover;*/
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+}
+
+a {
+  font-weight: 700;
+
+}
+
+.topnav:a {
+  color: #fff
 }
 
 /*
