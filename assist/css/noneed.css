@@ -85,6 +85,7 @@
 
 
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,400i,600&display=swap');
 
 
 
@@ -124,13 +125,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 ***********************/
 
 html {
-    font-family: "Roboto",sans-serif;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 300;
 }
 
 body {
     color: #6f7c82;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 26px;
 }
@@ -142,7 +144,7 @@ body {
 p {
     color: #6f7c82;
     font-weight: 300;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 26px;
     overflow-x: hidden;
@@ -374,7 +376,7 @@ box-sizing:border-box;
 
 .hover-cover    {   color: #6f7c82;
 font-weight: 400;
-font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;
 font-size: 16px;
 line-height: 26px; opacity:0;
 visibility:hidden; position:absolute;top:5%;left:5%;width:90%;height:90%; background:#fff; padding:20px; box-sizing:border-box;  text-align:center;
