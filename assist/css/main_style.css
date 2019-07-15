@@ -28,7 +28,7 @@ html {
   font-weight: 200;
   width: 100%;
 }
-h1 {
+content.h1 {
   font-weight: 200;
   font-family: "Montserrat";
   text-align: center;
@@ -111,7 +111,15 @@ header {
 
 }
 
-@media screen and (max-height: 450px) {
-  .content-plane {padding-top: 15px;}
-  .content-plane a {font-size: 18px;}
-}
+.rev_slider_wrapper {
+    margin: 50px auto !important;
+    padding: 0px;
+    max-height: 454px;
+    height: 413px;
+    overflow: visible;
+  }
+
+
+@media (max-width: 480px) {
+
+    }
