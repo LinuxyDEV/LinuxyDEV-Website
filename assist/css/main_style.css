@@ -12,7 +12,6 @@
 ##
 */
 /* Google Font - Montserrat  */
-@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,400i,600&display=swap');
 
 /*
 
@@ -21,6 +20,8 @@
 ##
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,200i,400,600&display=swap');
 
 html {
   /* TODO: background:  rgba(255, 255, 255, 0.33) repeat cover;*/
@@ -31,12 +32,16 @@ html {
 
 a {
   font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
 
 }
 
 .topmenu:a {
   color: #fff
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
 }
+
 
 /*
 
@@ -47,9 +52,10 @@ a {
 */
 /* Add a black background color to the top navigation */
 .topmenu {
-    background-color: #333;
     overflow: hidden;
     align: center;
+    padding-bottom: 150px;
+    z-index: 2;
 }
 
 /* Style the links inside the navigation bar */
