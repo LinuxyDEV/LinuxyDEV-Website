@@ -27,7 +27,7 @@ html {
   /* TODO: background:  rgba(255, 255, 255, 0.33) repeat cover;*/
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 a {
@@ -37,8 +37,8 @@ a {
 }
 
 .topmenu:a {
-  color: #fff
-  font-weight: 700;
+  color: #fff;
+  font-weight: 600;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -55,7 +55,8 @@ a {
     overflow: hidden;
     align: center;
     padding-bottom: 150px;
-    z-index: 2;
+    z-index: 38;
+    background-color: #196ffa;
 }
 
 /* Style the links inside the navigation bar */
@@ -70,13 +71,13 @@ a {
 
 /* Change the color of links on hover */
 .topmenu a:hover {
-  background-color: #ddd;
+  background-color: #196ffa;
   color: black;
 }
 
 /* Add a color to the active/current link */
 .topmenu a.active {
-  background-color: #4CAF50;
+  background-color: #196ffa;
   color: white;
 }
 
