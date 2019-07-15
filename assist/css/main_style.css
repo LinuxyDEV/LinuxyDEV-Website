@@ -25,15 +25,13 @@
 
 html {
   /* TODO: background:  rgba(255, 255, 255, 0.33) repeat cover;*/
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 200;
+  width: 100%;
 }
-
-a {
-  font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
-
+h1 {
+  font-weight: 200;
+  font-family: "Montserrat";
+  text-align: center;
 }
 
 .topmenu:a {
@@ -51,34 +49,38 @@ a {
 
 */
 /* Add a black background color to the top navigation */
+
+header {
+  margin-bottom: 300px;
+}
 .topmenu {
     overflow: hidden;
-    align: center;
-    padding-bottom: 150px;
+    text-align: center;
     z-index: 38;
-    background-color: #196ffa;
+    padding: 30px;
+    margin-bottom: 100px;
 }
-
 /* Style the links inside the navigation bar */
 .topmenu a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
+  float: center center;
+  color: #4d4e4f;
+  text-align: center center;
+  padding: 20px 16px;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 /* Change the color of links on hover */
 .topmenu a:hover {
-  background-color: #196ffa;
-  color: black;
+  color: rgb(5, 58, 250);
 }
 
 /* Add a color to the active/current link */
 .topmenu a.active {
-  background-color: #196ffa;
-  color: white;
+  color: rgb(5, 58, 250);
 }
 
 /* Right-aligned section inside the top navigation */
@@ -87,7 +89,7 @@ a {
 }
 
 /*
-
+  padding: 20px 16px;
 ##
 # - body content -
 ##
@@ -102,9 +104,10 @@ a {
 }
 
 .content-plane {
-  margin-left: 250px; /* Same width as the sidebar + left position in px */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    text-align: center;
 
 }
 
