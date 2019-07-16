@@ -53,8 +53,15 @@ p.content {
   font-family: 'Montserrat', sans-serif;
 }
 
-.center {
-  text-align: center;
+spam.w-content {
+  background:rgb(5, 58, 250);
+}
+h1.w-content {
+  color: #fff;
+}
+
+p.w-content {
+  color: #fff;
 }
 
 /*
