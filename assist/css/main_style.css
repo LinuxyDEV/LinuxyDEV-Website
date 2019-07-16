@@ -54,19 +54,19 @@ p.content {
   font-family: 'Montserrat', sans-serif;
 }
 
-spam.w-content {
-  background:rgb(5, 58, 250);
-}
 h1.w-content {
   color: #fff;
+  font-weight: 200;
+  font-family: "Montserrat";
+  text-align: center;
+
 }
 
 p.w-content {
   color: #fff;
-}
-
-spam.bg-content {
-  background:
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: left;
 }
 
 /*
@@ -148,12 +148,16 @@ header {
   text-align: center;
 }
 
+
+
 #div-bg {
-  /*position: absolute;
-  top: 0; left: 0; right: 0;*/
+  position: cover;
+  margin: 100px auto 100px auto;
   height: 50%;
-  background: #000;
-  &:after {
+  width: auto;
+  padding: 30px 30px 20px 20px;
+  background: url("/assist/assists/bg-div-0.jpg");
+  after {
     content: '';
     position: absolute;
     left: 0; right: 0; bottom: -20px;
