@@ -1,4 +1,4 @@
-# LinxuyDEV Website
+# LinuxyDEV Website
 ## Our Frontend website for LinuxyDEV.net
 
 Our Website is made with the following...
