@@ -21,7 +21,6 @@
 */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,200i,400,600&display=swap');
 
-
 h1.content {
   font-weight: 400;
   font-family: "Montserrat";
@@ -41,8 +40,6 @@ p.content {
   text-align: left;
   padding: 70px;
 }
-
-
 
 .topmenu:a {
   color: #fff;
