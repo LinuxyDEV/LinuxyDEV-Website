@@ -74,7 +74,7 @@ header {
 
 /* Change the color of links on hover */
 .topmenu a:hover {
-  color: rgb(5, 58, 250);
+  color: #4d4e4f;
 }
 
 /* Add a color to the active/current link */
@@ -110,7 +110,7 @@ header {
 
 .rev_slider_wrapper {
   height: 100%;
-  width: 100%;
+  width: auto;
   position: relative;
   overflow: hidden;
   background: #120103;
