@@ -12,7 +12,6 @@
 ##
 */
 /* Google Font - Montserrat  */
-
 /*
 
 ##
@@ -20,7 +19,6 @@
 ##
 
 */
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,200i,400,600&display=swap');
 
 html {
@@ -28,6 +26,7 @@ html {
   font-weight: 200;
   width: 100%;
 }
+
 content.h1 {
   font-weight: 200;
   font-family: "Montserrat";
@@ -40,7 +39,6 @@ content.h1 {
   font-family: 'Montserrat', sans-serif;
 }
 
-
 /*
 
 ##
@@ -49,17 +47,18 @@ content.h1 {
 
 */
 /* Add a black background color to the top navigation */
-
 header {
   margin-bottom: 300px;
 }
+
 .topmenu {
-    overflow: hidden;
-    text-align: center;
-    z-index: 38;
-    padding: 30px;
-    margin-bottom: 100px;
+  overflow: hidden;
+  text-align: center;
+  z-index: 38;
+  padding: 30px;
+  margin-bottom: 100px;
 }
+
 /* Style the links inside the navigation bar */
 .topmenu a {
   float: center center;
@@ -95,7 +94,6 @@ header {
 ##
 
 */
-
 .logo {
   display: block;
   margin-left: auto;
@@ -104,22 +102,20 @@ header {
 }
 
 .content-plane {
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
-    text-align: center;
-
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  text-align: center;
 }
 
 .rev_slider_wrapper {
-    margin: 50px auto !important;
-    padding: 0px;
-    max-height: 454px;
-    height: 413px;
-    overflow: visible;
-  }
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background: #120103;
+  color: #fff;
+  text-align: center;
+}
 
-
-@media (max-width: 480px) {
-
-    }
+@media (max-width: 480px) {}
