@@ -1,9 +1,5 @@
 # LinuxyDEV Website
-<<<<<<< HEAD
 ### Our Frontend website for LinuxyDEV.net
-=======
-## Our Frontend website for LinuxyDEV.net
->>>>>>> b504d956e042e255a9624a33a0b0a6c589c019a0
 
 Our Website is made with the following...
 

@@ -21,17 +21,28 @@
 */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,200i,400,600&display=swap');
 
-html {
-  /* TODO: background:  rgba(255, 255, 255, 0.33) repeat cover;*/
-  font-weight: 200;
-  width: 100%;
+
+h1.content {
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
 }
 
-content.h1 {
+h2.content {
   font-weight: 200;
   font-family: "Montserrat";
   text-align: center;
 }
+
+p.content {
+  font-weight: 200;
+  font-size: 18px;
+  font-family: "Montserrat";
+  text-align: left;
+  padding: 70px;
+}
+
+
 
 .topmenu:a {
   color: #fff;
@@ -117,5 +128,3 @@ header {
   color: #fff;
   text-align: center;
 }
-
-@media (max-width: 480px) {}
