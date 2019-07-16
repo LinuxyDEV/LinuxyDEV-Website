@@ -1,5 +1,5 @@
-# LinxuyDEV Website
-## Our Frontend website for LinuxyDEV.net
+# LinuxyDEV Website
+### Our Frontend website for LinuxyDEV.net
 
 Our Website is made with the following...
 
