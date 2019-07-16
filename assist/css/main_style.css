@@ -27,6 +27,12 @@ h1.content {
   text-align: center;
 }
 
+img.content {
+  height: 500px;
+  width:  auto;
+  padding: 70px;
+}
+
 h2.content {
   font-weight: 200;
   font-family: "Montserrat";
@@ -35,7 +41,7 @@ h2.content {
 
 p.content {
   font-weight: 200;
-  font-size: 22px;
+  font-size: 22 px;
   font-family: "Montserrat";
   text-align: left;
   padding: 70px;
