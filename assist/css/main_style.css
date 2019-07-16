@@ -35,7 +35,7 @@ h2.content {
 
 p.content {
   font-weight: 200;
-  font-size: 18px;
+  font-size: 22px;
   font-family: "Montserrat";
   text-align: left;
   padding: 70px;
@@ -45,6 +45,10 @@ p.content {
   color: #fff;
   font-weight: 600;
   font-family: 'Montserrat', sans-serif;
+}
+
+.center {
+  text-align: center;
 }
 
 /*
