@@ -94,7 +94,7 @@
 					-	RESET	-
 ***********************************************************/
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
-    margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent;
+    margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline;
         -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -310,32 +310,6 @@ line-height: 26px; opacity:0;
 visibility:hidden; position:absolute;top:5%;left:5%;width:90%;height:90%; background:#fff; padding:20px; box-sizing:border-box;  text-align:center;
                                 text-transform: uppercase;
 }
-
-
-footer  {
-background:#2d3032; width:100%; padding:50px 150px; box-sizing:border-box; color:#fff;}
-
-footer h3   {   color:#b7bdc0;font-size: 17px;
-    line-height: 20px;
-    font-weight: 700;
-    letter-spacing: 0px;
-    margin-bottom: 19px;}
-
-footer, footer a {
-
-    color: rgba(183,189,192,0.5);
-    font-weight: 500;
-    cursor:pointer;
-}
-
-footer a    {   display:block; text-decoration: none;}
-
-footer a:hover  {   color:#fff;}
-
-.footer_inner   {   max-width:1240px; margin:auto;}
-
-.footerwidget   {   width:25%; padding:0px 20px; box-sizing:border-box; float:left;}
-
 
 .bottom-history {
       /* display:table-cell;*/
