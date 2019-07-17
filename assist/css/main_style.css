@@ -25,13 +25,14 @@ h1.content {
   font-weight: 400;
   font-family: "Montserrat";
   text-align: center;
+  padding: auto 70px auto 70px;
   font-size: 35px;
 }
 
 img.content {
-  height: 500px;
-  width:  auto;
-  padding: 70px;
+  width: 30%;
+  height: auto;
+  padding: auto 70px auto 70px;
 }
 
 h2.content {
@@ -42,7 +43,7 @@ h2.content {
 
 p.content {
   font-weight: 200;
-  font-size: 22 px;
+  font-size: 22px;
   font-family: "Montserrat";
   text-align: left;
   padding: 70px;
@@ -56,7 +57,9 @@ p.content {
 
 h1.w-content {
   color: #fff;
-  font-weight: 200;
+  padding: auto 70px auto 70px;
+  font-weight: 600;
+  font-size: 30px;
   font-family: "Montserrat";
   text-align: center;
 
@@ -64,7 +67,18 @@ h1.w-content {
 
 p.w-content {
   color: #fff;
+  padding: auto 70px auto 70px;
   font-weight: 400;
+  font-size: 18px;
+  font-family: "Montserrat";
+  text-align: left;
+}
+
+a.w-content {
+  color: #fff;
+  padding: auto 70px auto 70px;
+  font-weight: 400;
+  font-size: 18px;
   font-family: "Montserrat";
   text-align: left;
 }
@@ -151,12 +165,15 @@ header {
 
 
 #div-bg {
-  position: cover;
   margin: 100px auto 100px auto;
+  padding: 30px auto 20px auto;
   height: 50%;
   width: auto;
-  padding: 30px 30px 20px 20px;
   background: url("/assist/assists/bg-div-0.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   after {
     content: '';
     position: absolute;
