@@ -104,6 +104,9 @@ a.w-content {
 
 */
 /* Add a black background color to the top navigation */
+header {
+  margin-bottom: 300px;
+}
 
 .topmenu {
   overflow: hidden;
@@ -179,17 +182,26 @@ body {
 .colour-block {
   background: rgb(20, 94, 255);
   width: 100%;
-  padding: 7% 20% 10% 20%;
-  color: #fff;
+  padding: 7% 5% 19% 5%;
 }
 
 .white-block {
   background: rgb(20, 94, 255);
   width: 100%;
-  padding: 7% 20% 10% 20%;
-  color: #823A9C;
+  padding: 7% 5 10% 5%;
 }
 
+h1 {
+  text-align: center;
+  font-size: 80px;
+  font-family: 'wire one', serif;
+  font-weight: normal;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Raleway', serif;
+}
 
 /*------------------*/
 /*  SKEW CLOCKWISE  */
@@ -199,7 +211,7 @@ body {
   height: 100px;
   position: absolute;
   left: 0px;
-  background: linear-gradient(to right bottom, rgb(20, 94, 255) 49%, #fff 50%), linear-gradient(-50deg, #ffffff 16px, #000 0);
+  background: linear-gradient(to left bottom, #fff 49%, rgb(20, 94, 255) 50%);
 }
 
 /*-------------------------*/
@@ -210,5 +222,6 @@ body {
   height: 100px;
   position: absolute;
   left: 0px;
-  background: linear-gradient(to left bottom, #fff 49%, rgb(20, 94, 255) 50%);
+  background: linear-gradient(to right bottom, rgb(20, 94, 255) 49%, #fff 50%), linear-gradient(-50deg, #ffffff 16px, #000 0);
+
 }
