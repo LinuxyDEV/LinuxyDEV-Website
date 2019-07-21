@@ -187,8 +187,9 @@ body {
   margin: 0px;
 }
 footer {
-  background: transparent;
+  background: #fff;
   padding: 0px 20px 0px 20px;
+  text-align: center;
 }
 p.f-content {
   color: #4d4e4f;
