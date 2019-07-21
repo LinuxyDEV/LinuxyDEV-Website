@@ -27,6 +27,15 @@ h1.content {
   font-size: 35px;
 }
 
+h4.content {
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+  padding: auto 30px auto 30px;
+  font-size: 25px;
+}
+
+
 img.content {
   width: 700px;
   height: auto;
