@@ -187,9 +187,12 @@ body {
 .white-block {
   background: #fff;
   width: 100%;
-  padding: 19% 5 19% 5%;
+  padding: 7% 5% 7% 5%;
 }
 
+i {
+    font-family: 'Josefin Sans', sans-serif
+}
 
 /*------------------*/
 /*  SKEW CLOCKWISE  */
