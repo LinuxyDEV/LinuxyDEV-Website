@@ -37,7 +37,7 @@ h4.content {
 }
 
 img.content {
-  width: 700px;
+  width: 50%;
   height: auto;
   padding: 70px;
 }
@@ -48,9 +48,11 @@ h2.content {
   color: #4d4e4f;
   text-align: center;
 }
-img.i-content _{
+
+img.i-content _ {
   width: 25%
 }
+
 img.id-content {
   width: 65%;
   height: auto;
@@ -170,7 +172,6 @@ header {
   width: 20%;
 }
 
-
 .rev_slider_wrapper {
   height: 100%;
   width: auto;
@@ -185,6 +186,17 @@ header {
 body {
   margin: 0px;
 }
+footer {
+  background: transparent;
+  padding: 0px 20px 0px 20px;
+}
+p.f-content {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
 
 .colour-block {
   background: rgb(20, 94, 255);
@@ -197,7 +209,6 @@ body {
   width: 100%;
   padding: 7% 5% 7% 5%;
 }
-
 
 /*------------------*/
 /*  SKEW CLOCKWISE  */
@@ -219,5 +230,4 @@ body {
   position: absolute;
   left: 0px;
   background: linear-gradient(to right bottom, rgb(20, 94, 255) 49%, #fff 50%), linear-gradient(-50deg, #ffffff 16px, #000 0);
-
 }
