@@ -48,6 +48,14 @@ h2.content {
   color: #4d4e4f;
   text-align: center;
 }
+img.i-content _{
+  width: 25%
+}
+img.id-content {
+  width: 65%;
+  height: auto;
+  padding: 70px;
+}
 
 p.content {
   font-weight: 200;
@@ -190,9 +198,6 @@ body {
   padding: 7% 5% 7% 5%;
 }
 
-i {
-    font-family: 'Josefin Sans', sans-serif
-}
 
 /*------------------*/
 /*  SKEW CLOCKWISE  */
