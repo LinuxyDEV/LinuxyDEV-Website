@@ -22,6 +22,7 @@ h1.content {
   font-weight: 400;
   font-family: "Montserrat";
   text-align: center;
+  color: #4d4e4f;
   padding: auto 30px auto 30px;
   font-size: 35px;
 }
@@ -30,6 +31,7 @@ h4.content {
   font-weight: 400;
   font-family: "Montserrat";
   text-align: center;
+  color: #4d4e4f;
   padding: auto 30px auto 30px;
   font-size: 25px;
 }
@@ -43,12 +45,14 @@ img.content {
 h2.content {
   font-weight: 200;
   font-family: "Montserrat";
+  color: #4d4e4f;
   text-align: center;
 }
 
 p.content {
   font-weight: 200;
   font-size: 22px;
+  color: #4d4e4f;
   font-family: "Montserrat";
   text-align: left;
   padding: 70px;
@@ -72,8 +76,8 @@ a.content {
 h1.w-content {
   color: #fff;
   padding: auto 70px auto 70px;
-  font-weight: 600;
-  font-size: 30px;
+  font-weight: 400;
+  font-size: 40px;
   font-family: "Montserrat";
   text-align: center;
 }
@@ -81,8 +85,8 @@ h1.w-content {
 p.w-content {
   color: #fff;
   padding: auto 70px auto 70px;
-  font-weight: 400;
-  font-size: 18px;
+  font-weight: 300;
+  font-size: 25px;
   font-family: "Montserrat";
   text-align: left;
 }
@@ -90,7 +94,7 @@ p.w-content {
 a.w-content {
   color: #fff;
   padding: auto 70px auto 70px;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 18px;
   font-family: "Montserrat";
   text-align: left;
@@ -168,6 +172,7 @@ header {
 .rev_slider_wrapper {
   height: 100%;
   width: auto;
+  font-family: 'Montserrat', sans-serif;
   position: relative;
   overflow: hidden;
   background: #120103;
@@ -186,9 +191,9 @@ body {
 }
 
 .white-block {
-  background: rgb(20, 94, 255);
+  background: #fff;
   width: 100%;
-  padding: 7% 5 10% 5%;
+  padding: 19% 5 19% 5%;
 }
 
 
