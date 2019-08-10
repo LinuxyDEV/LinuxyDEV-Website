@@ -211,3 +211,9 @@ font-size: 16px;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
 }
+
+.title-monsterrat-light {
+  color: #fff;
+  font-weight: 200;
+  font-family: 'Montserrat', sans-serif;
+}
