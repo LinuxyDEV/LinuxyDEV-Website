@@ -1,5 +1,5 @@
 .colour-block {
-  background: rgb(20, 94, 255);
+  background: rgb(6, 82, 247);
   width: 100%;
   padding: 7% 5% 19% 5%;
 }
@@ -18,7 +18,7 @@
   height: 100px;
   position: absolute;
   left: 0px;
-  background: linear-gradient(to left bottom, #fff 49%, rgb(20, 94, 255) 50%);
+  background: linear-gradient(to left bottom, #fff 49%, rgb(6, 82, 247) 50%);
 }
 
 /*-------------------------*/
@@ -29,5 +29,5 @@
   height: 100px;
   position: absolute;
   left: 0px;
-  background: linear-gradient(to right bottom, rgb(20, 94, 255) 49%, #fff 50%), linear-gradient(-50deg, #ffffff 16px, #000 0);
+  background: linear-gradient(to right bottom, rgb(6, 82, 247) 49%, #fff 50%), linear-gradient(-50deg, #ffffff 16px, #000 0);
 }
