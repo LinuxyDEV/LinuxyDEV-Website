@@ -223,3 +223,6 @@ font-size: 16px;
   font-weight: 600;
   font-family: 'Montserrat', sans-serif;
 }
+.wp-tp-full-width {
+  width: 100%
+}
