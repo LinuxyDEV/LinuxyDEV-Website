@@ -174,12 +174,12 @@ header {
 }
 
 .rev_slider_wrapper {
-  height: 100%;
-  width: auto;
+  height: 230px;
+  width: 100%;
   font-family: 'Montserrat', sans-serif;
   position: relative;
   overflow: hidden;
-  background: #120103;
+  background: #fff;
   color: #fff;
   text-align: center;
 }

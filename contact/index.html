@@ -65,34 +65,34 @@
 
 
 
-  <link rel="stylesheet" type="text/css" href="/assist/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
-  <link rel="stylesheet" type="text/css" href="/assist/revolution/fonts/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="/assist/slider//fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+  <link rel="stylesheet" type="text/css" href="/assist/slider//fonts/font-awesome/css/font-awesome.css">
 
   <!-- REVOLUTION STYLE SHEETS -->
-  <link rel="stylesheet" type="text/css" href="/assist/revolution/css/settings.css">
+  <link rel="stylesheet" type="text/css" href="/assist/slider//css/settings.css">
   <!-- REVOLUTION LAYERS STYLES -->
 
 
-  <link rel="stylesheet" type="text/css" href="/assist/revolution/css/layers.css">
+  <link rel="stylesheet" type="text/css" href="/assist/slider//css/layers.css">
 
   <!-- REVOLUTION NAVIGATION STYLES -->
-  <link rel="stylesheet" type="text/css" href="/assist/revolution/css/navigation.css">
+  <link rel="stylesheet" type="text/css" href="/assist/slider//css/navigation.css">
 
   <!-- FONT AND STYLE FOR BASIC DOCUMENTS, NO NEED FOR FURTHER USAGE IN YOUR PROJECTS-->
   <!-- REVOLUTION JS FILES -->
-  <script type="text/javascript" src="/assist/revolution/js/jquery.themepunch.tools.min.js"></script>
-  <script type="text/javascript" src="/assist/revolution/js/jquery.themepunch.revolution.min.js"></script>
+  <script type="text/javascript" src="/assist/slider//js/jquery.themepunch.tools.min.js"></script>
+  <script type="text/javascript" src="/assist/slider//js/jquery.themepunch.revolution.min.js"></script>
 
   <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
-  <script type="text/javascript" src="/assist/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-  <script type="text/javascript" src="/assist/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-  <script type="text/javascript" src="/assist/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-  <script type="text/javascript" src="/assist/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-  <script type="text/javascript" src="/assist/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-  <script type="text/javascript" src="/assist/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-  <script type="text/javascript" src="/assist/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-  <script type="text/javascript" src="/assist/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-  <script type="text/javascript" src="/assist/revolution/js/extensions/revolution.extension.video.min.js"></script>
+  <script type="text/javascript" src="/assist/slider//js/extensions/revolution.extension.actions.min.js"></script>
+  <script type="text/javascript" src="/assist/slider//js/extensions/revolution.extension.carousel.min.js"></script>
+  <script type="text/javascript" src="/assist/slider//js/extensions/revolution.extension.kenburn.min.js"></script>
+  <script type="text/javascript" src="/assist/slider//js/extensions/revolution.extension.layeranimation.min.js"></script>
+  <script type="text/javascript" src="/assist/slider//js/extensions/revolution.extension.migration.min.js"></script>
+  <script type="text/javascript" src="/assist/slider//js/extensions/revolution.extension.navigation.min.js"></script>
+  <script type="text/javascript" src="/assist/slider//js/extensions/revolution.extension.parallax.min.js"></script>
+  <script type="text/javascript" src="/assist/slider//js/extensions/revolution.extension.slideanims.min.js"></script>
+  <script type="text/javascript" src="/assist/slider//js/extensions/revolution.extension.video.min.js"></script>
 
   <title>LinuxyDEV - Contact Linuxy</title>
   <img class="logo" width="200" src="/assist/assists/LInuxyDEV_LOGO_BLUE.png" </div> </head> </header margin="50px">
@@ -166,9 +166,10 @@
       } else {
         revapi1078 = tpj("#rev_slider_1078_1").show().revolution({
           sliderType: "standard",
-          jsFileLocation: "/assist/revolution/js/",
+          jsFileLocation: "/assist/slider/js/",
           sliderLayout: "auto",
           dottedOverlay: "none",
+          minHeight: "230",
           delay: 9000,
           navigation: {
             keyboardNavigation: "off",
@@ -190,26 +191,26 @@
             visible_area: "80%",
             presize: false
           },
-          responsiveLevels: [1240, 1024, 778, 480],
+          /*responsiveLevels: [1240, 1024, 778, 480],
           visibilityLevels: [1240, 1024, 778, 480],
           gridwidth: [1240, 1024, 778, 480],
-          gridheight: [600, 600, 500, 400],
-          lazyType: "none",
+          gridheight: [600, 600, 500, 400], */
+          lazyType: "smart",
           parallax: {
             type: "mouse",
             origo: "slidercenter",
             speed: 2000,
-            levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50, 46, 47, 48, 49, 50, 55],
+            levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50, 46, 47, 48, 49, 50, 55, 60,65 ,70, 75, 80],
             type: "mouse",
           },
           shadow: 0,
-          spinner: "off",
+          spinner: "spinner3",
           stopLoop: "off",
           stopAfterLoops: -1,
           stopAtSlide: -1,
-          shuffle: "off",
+          shuffle: "on",
           autoHeight: "off",
-          hideThumbsOnMobile: "off",
+          hideThumbsOnMobile: "on",
           hideSliderAtLimit: 0,
           hideCaptionAtLimit: 0,
           hideAllCaptionAtLilmit: 0,
@@ -221,7 +222,7 @@
           }
         });
       }
-    }); /*ready*/
+    });
   </script>
   </div>
   <div class="clearfix"></div>
